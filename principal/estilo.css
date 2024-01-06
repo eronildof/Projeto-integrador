@@ -4,8 +4,9 @@
 }
 
 header{
-   
-    width: 1517px;
+   display: flex;
+    max-width: 1517px;
+    min-width: 300px;
     height: 140px;
     background-color: black;
 }
@@ -21,6 +22,8 @@ header{
     width: 229px;
     height: 120px;
    padding-top: 10px;
+   padding-left: 20px;
+   min-width: 50px;
 }
 
 .container{
@@ -46,7 +49,7 @@ li{
     color: white;
     font-size: 25px;
     text-align: center;
-    padding-top: 85px;
+    padding-top: 85px;  
 }
 
 li a{
@@ -56,7 +59,7 @@ li a{
 
  li a:hover{
     background-color: #555;
-    color: blue;
+    color: black;
 }
 
 #corpo{
@@ -65,7 +68,8 @@ li a{
     background-color: #afafaf;
     background-image: url(img/cliente-fazendo-o-corte-de-cabelo-em-um-salao-de-barbearia.jpg);
     background-repeat: no-repeat;
-    background-size: 1367px 625px;
+    background-size: 100%;
+    
 }
  #corpo p{
     text-align: center;
