@@ -5,9 +5,10 @@
 
 header{
    
-    width: 1517px;
+    width: 100%;
     height: 140px;
     background-color: black;
+    
 }
 
  h1{
@@ -27,55 +28,92 @@ header{
 .container{
    display: flex;
   align-items: center;
-}
-
-div{
-    float: left;
-}
-
-#menu{
-    width: 150px;
-    height: 625px;
-    background-color: rgb(105, 105, 105);
-}
-
-ul{
-    list-style-type: none;
-}
-
-li{
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    padding-top: 85px;
-}
-
-li a{
-    text-decoration: none;
-    color: white;   
-}
-
- li a:hover{
-    background-color: #555;
-    color: black;
+  width: 100%;
 }
 
 #corpo{
     width: 100%;
-    height: 625px; 
-    background-color: #afafaf;
+    height: 100%;  
+    background-color: rgb(72, 72, 72);
 }
- #corpo p{
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding-top: 100px;
- }
 
- #img{
-    width: 600px;
-    height: 200px;
- }
+#corpo a{
+   text-decoration: none;
+   color: blue;
+   font-size: 25px;
+   margin: 10px 10px;
+}
+
+#corpo a:hover{
+   color: brown;
+}
+
+#corpo h2{
+  margin: 0;
+   color: white;
+   text-align: center;
+   font-size: 30px;
+}
+
+#corpo fieldset{
+   background-color: gray;
+   color: white;
+   width: 100%;
+}
+
+#leg1{
+   background-color: black;
+   color: white;
+   width: 100%;
+   font-size: 25px;
+   border-radius: 8px; 
+}
+
+.serv {
+   font-size: 25px;
+  padding: 10px 8px;
+  
+}
+
+#leg2{
+   background-color: black;
+   color: white;
+   width: 100%;
+   font-size: 25px;
+   border-radius: 8px; 
+   padding: 0;
+}
+
+.os{
+   font-size: 25px;
+   padding: 10px 8px;
+}
+
+#leg3{
+   background-color: black;
+   color: white;
+   width: 100%;
+   font-size: 25px;
+   border-radius: 8px; 
+   padding: 0;
+}
+
+.pm{
+   font-size: 25px;
+   padding: 10px 8px;
+}
+
+#curso{
+   background-color: rgb(72, 72, 72);
+  font-size: 25px;
+   padding: 10px 8px;
+   color: white; 
+}
+
+#agenda a{
+   
+
+}
 
  #rodape{
     background-color: black;
