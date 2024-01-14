@@ -5,7 +5,7 @@
 
 header{
    
-    width: 1517px;
+    width: 100%;
     height: 140px;
     background-color: black;
 }
@@ -14,7 +14,7 @@ header{
   font-size: 60px;
   color: white;
   text-align: left;
-  padding-left: 370px;
+   padding-left: 370px;
 }
 
  .container img{
@@ -29,61 +29,91 @@ header{
   align-items: center;
 }
 
-div{
-    float: left;
-}
-
-#menu{
-    width: 150px;
-    height: 625px;
-    background-color: rgb(105, 105, 105);
-}
-
-ul{
-    list-style-type: none;
-}
-
-li{
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    padding-top: 85px;
-}
-
-li a{
-    text-decoration: none;
-    color: white;   
-}
-
- li a:hover{
-    background-color: #555;
-    color: black;
-}
-
 #corpo{
-    width: 1367px;
+    width: 100%;
     height: 625px; 
-    background-color: #afafaf;
-    background-image: url(img/cliente-fazendo-o-corte-de-cabelo-em-um-salao-de-barbearia.jpg);
-    background-repeat: no-repeat;
-    background-size: 1367px 625px;
+    background-color: #7a7a7a;
 }
- #corpo p{
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding-top: 100px;
- }
 
- #img{
-    width: 600px;
-    height: 200px;
- }
+#corpo a{
+   font-size: 20px;
+   color: black;
+   padding: 0px 15px;
+   text-decoration: none;
+}
 
+#corpo h2{
+   font-size: 30px;
+   text-align: center;
+}
  #rodape{
     background-color: black;
     width: 1517px;
     height: 120px;
+ }
+
+ #cont{
+   color: black;
+ }
+
+ #tel{
+   display: flex;
+   align-items: center;
+ }
+
+ #tel img{
+   width: 75px;
+   height: 60px;
+   padding: 20px 10px;
+ }
+
+ #tel p{
+   font-size: 25px;
+ }
+
+ #whats{
+   display: flex;
+   align-items: center;
+ }
+
+ #whats img{
+   width: 75px;
+   height: 60px;
+   padding: 20px 10px;
+ }
+
+ #whats p{
+   font-size: 25px;
+ }
+
+ #face{
+   display: flex;
+   align-items: center;
+ }
+
+ #face img{
+   width: 75px;
+   height: 60px;
+   padding: 20px 10px;
+ }
+
+ #face p{
+   font-size: 25px;
+ }
+
+ #insta{
+   display: flex;
+   align-items: center;
+ }
+
+ #insta img{
+   width: 75px;
+   height: 60px;
+   padding: 20px 10px;
+ }
+
+ #insta p{
+   font-size: 25px;
  }
 
  #rodape p{

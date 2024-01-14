@@ -72,10 +72,11 @@ li a{
 }
 
  #corpo p{
-    text-align: center;
+    text-align: right;
     font-size: 50px;
     color: white;
     padding-top: 100px;
+    padding-right: 15px;
  }
 
  #rodape{
