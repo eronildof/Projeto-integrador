@@ -55,6 +55,23 @@ legend{
    color: white;
    border-radius: 25px;
    height: 45px;
+   width: 90px;
+}
+
+#limpar{
+   background-color: black;
+   color: white;
+   border-radius: 25px;
+   height: 45px;
+   width: 110px;
+}
+
+#enviar{
+   background-color: black;
+   color: white;
+   border-radius: 25px;
+   height: 45px;
+   width: 80px;
 }
 
 input{
