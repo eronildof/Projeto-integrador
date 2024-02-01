@@ -36,6 +36,11 @@ header{
     border: 2px solid black;
 }
 
+#corpo a{
+   font-size: 20px;
+   padding-left: 15px;
+}
+
 fieldset{
   width: 99%;
   border-radius: 10px;
@@ -47,7 +52,7 @@ background-color: rgb(68, 67, 67);
 legend{
    color: white;
    background-color: black;
-   font-size: 25px;
+   font-size: 30px;
    border-radius: 8px;
 }
 #apagar{
@@ -73,6 +78,7 @@ legend{
    height: 45px;
    width: 80px;
 }
+
 
 input{
    font-size: 23px;
