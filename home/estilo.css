@@ -6,7 +6,7 @@
 header{
    
     width: 1517px;
-    height: 140px;
+    min-width: 300px;
     background-color: black;
 }
 
