@@ -35,24 +35,34 @@ header{
   width: 100%;
 }
 
+#menmain{
+   width: 100%;
+   border: 1px solid white;
+   background-image: url(../principal/img/foto\ menor.jpg);
+   background-position: 100%;  
+   background-repeat: no-repeat;
+}
+
+
 
 
 #menu{
-  
-    background-color: rgb(105, 105, 105);
-   
-   
+  max-width: 150px; 
 }
 
 ul{
     list-style-type: none;
+    background-color: #555;
 }
 
 li{
     color: white;
     font-size: 25px;
     text-align: left;
-    padding-top: 70px;  
+    margin-top: auto;  
+    margin-bottom: auto;
+    padding: 50px 0px;
+    padding-left: 25px;
 
 }
 
@@ -66,12 +76,6 @@ li a{
     color: blue;
 }
  
-
-#corpo{
-   font-size: 50px;
- 
-}
-
 
  #rodape{
     background-color: black;
