@@ -5,8 +5,11 @@
 
 header{
    
-    width: 100%;
+   display: flex;
+    max-width: 100%;
     min-width: 300px;
+    top: 0px;
+    min-height: 140px;
     background-color: black;
 }
 
