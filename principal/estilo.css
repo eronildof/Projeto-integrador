@@ -4,12 +4,10 @@
 }
 
 header{
-   display: flex;
+   
    width: 100%;
-    min-width: 300px;
-    top: 0px;
-    min-height: 90px;
-    background-color: black;
+   min-width: 300px;
+   background-color: black;
 }
 
  h1{
