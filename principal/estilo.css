@@ -78,84 +78,81 @@ li a{
 }
  
 
- #rodape{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-   
-   
- }
+#rodape{
+   background-color: black;
+   width: 100%;
+   height: 100%;
+}
 
- #rodape p{
-    color: white;
-    
- }
+#rodape p{
+   color: white;
+}
 
- .local{
-    padding: 6px 10px;
-    
- }
+.local{
+   padding: 6px 10px;
+   align-items: center;
+}
 
- .end{
-    display: flex;
-    align-items: center;
-    padding: 5px 0;
- }
+.end{
+   display: flex;
+   align-items: center;
+   padding: 5px 0;
+}
 
- .end img{
-    width: 27px;
- }
+.end img{
+   width: 27px;
+}
 
- .end p{
-    padding: 0px 7px;
- }
+.end p{
+   padding: 0px 7px;
+}
 
- .end a{
-    color: white;
-    text-decoration: none;
- }
+.end a{
+   color: white;
+   text-decoration: none;
+}
 
- .tel{
-    display: flex;
-    align-items: center;
-    padding: 5px 0;
- }
+.tel{
+   display: flex;
+   align-items: center;
+   padding: 5px 0;
+}
 
- .tel img{
-    width: 27px;
- }
+.tel img{
+   width: 27px;
+}
 
- .tel p{
-    padding: 0px 7px;
- }
+.tel p{
+   padding: 0px 7px;
+}
 
- .tel a{
-    color: white;
-    text-decoration: none;
- }
+.tel a{
+   color: white;
+   text-decoration: none;
+}
 
- .email{
-    display: flex;
-    align-items: center;
-    padding: 5px 0;
- }
+.email{
+   display: flex;
+   align-items: center;
+   padding: 5px 0;
+}
 
- .email img{
-    width: 27px;
- }
+.email img{
+   width: 27px;
+}
 
- .email p{
-    padding: 0px 7px;
- }
+.email p{
+   padding: 0px 7px;
+}
 
- .email a{
-    color: white;
-    text-decoration: none;
- }
+.email a{
+   color: white;
+   text-decoration: none;
+}
 
 .redes img{
-    float: right; 
-    padding:5px 12px;  
+   float: right; 
+   padding:5px 12px;  
 }
 
 
