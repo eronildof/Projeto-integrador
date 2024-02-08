@@ -36,10 +36,11 @@ header{
 #menmain{
   
    width: 100%;
-   background-image: url(../principal/img/background.jpg);
+   background-image: url(../principal/img/barber\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 200px;
+ 
 }
 
 #menu{
