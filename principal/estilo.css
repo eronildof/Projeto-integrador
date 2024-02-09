@@ -35,7 +35,7 @@ header{
 
 #menmain{
 
-   background-image: url(../principal/img/fundo.jpg);
+   background-image: url(../principal/img/horários\ \(4\).jpg);
    background-repeat: no-repeat;
    background-size: cover;
    
@@ -125,25 +125,6 @@ li a{
 }
 
 .tel a{
-   color: white;
-   text-decoration: none;
-}
-
-.email{
-   display: flex;
-   align-items: center;
-   padding: 5px 0;
-}
-
-.email img{
-   width: 27px;
-}
-
-.email p{
-   padding: 0px 7px;
-}
-
-.email a{
    color: white;
    text-decoration: none;
 }
