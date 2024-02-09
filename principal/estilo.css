@@ -34,30 +34,29 @@ header{
 }
 
 #menmain{
-  
-   width: 100%;
-   background-image: url(../principal/img/barber\ 1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 200px;
- 
+
+   background-image: url(../principal/img/fundo.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
 }
 
-#menu{
-  max-width: 150px; 
+nav{
+   background-color: #555;
+   max-width: 120px;
+   padding-top: 100px;
+   padding-bottom: 100px;
 }
 
 ul{
     list-style-type: none;
-    background-color: #555;
+    
 }
 
 li{
     color: white;
     font-size: 25px;
     text-align: left;
-    margin-top: auto;  
-    margin-bottom: auto;
     padding: 50px 0px;
    margin-left: auto;
    margin-right: auto;
@@ -78,8 +77,9 @@ li a{
 
 #rodape{
    background-color: black;
-   width: 100%;
-   height: 100%;
+	color: #fff;
+	text-align: center;
+	
 }
 
 #rodape p{
@@ -152,7 +152,6 @@ li a{
    float: right; 
    padding:5px 12px;  
 }
-
 
 
 
